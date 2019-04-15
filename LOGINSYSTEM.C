@@ -1,4 +1,5 @@
 //Program for Login Sysytem
+//Created by Nihar Anant Koli
 
 #include<stdio.h>
 #include<conio.h>
@@ -19,7 +20,7 @@ void main()
 
    if(strcmp(str, "password") == 0)
    {
-      printf("\n\n succesfull...");
+      printf("\n\n Login Succesfull...");
    }
    else
    {

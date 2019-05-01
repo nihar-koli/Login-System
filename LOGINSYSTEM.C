@@ -16,9 +16,9 @@ void main()
      str2[i] = getch();
      i++;
      printf("\b* ");
-   }while((int)str[i-1] != 13);
-   str[i-1]='\0';
-//     printf("\n\n Password is : %s",str);
+   }while((int)str2[i-1] != 13);
+   str2[i-1]='\0';
+//     printf("\n\n Password is : %s",str2);
 
    if((strcmp(str1, "admin") && strcmp(str2, "password") )== 0)
    {

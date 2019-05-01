@@ -5,20 +5,22 @@
 #include<conio.h>
 void main()
 {
-  char str[50];
+  char str1[50],str2[50];
   int i=0;
       clrscr();
-   printf("\n\n Password : ");
+   printf("\n\nEnter Username : ");
+   gets(str1);
+   printf("\n\nEnter Password : ");
    do
    {
-     str[i] = getch();
+     str2[i] = getch();
      i++;
      printf("\b* ");
    }while((int)str[i-1] != 13);
    str[i-1]='\0';
-     printf("\n\n Password is : %s",str);
+//     printf("\n\n Password is : %s",str);
 
-   if(strcmp(str, "password") == 0)
+   if((strcmp(str1, "admin") && strcmp(str2, "password") )== 0)
    {
       printf("\n\n Login Succesfull...");
    }

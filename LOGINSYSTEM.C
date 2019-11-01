@@ -18,18 +18,11 @@ void main()
      printf("\b* ");
    }while((int)str2[i-1] != 13);
    str2[i-1]='\0';
-//     printf("\n\n Password is : %s",str2);
-
+  
    if((strcmp(str1, "admin") && strcmp(str2, "password") )== 0)
-   {
       printf("\n\n Login Succesfull...");
-   }
    else
-   {
       printf("\n\n Try again...");
-   }
-
-
+  
    getch();
-
 }

@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
   char str1[50],str2[50];
   int i=0;

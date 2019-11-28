@@ -4,7 +4,7 @@ This repository contains program of Login Credential System.
 
 Initial Credentials :
 
-Username:user
+Username:admin
 Password:password
 
 You can change credential from the code...

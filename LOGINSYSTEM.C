@@ -25,4 +25,6 @@ int main()
       printf("\n\n Try again...");
   
    getch();
+  
+  return 0;
 }
